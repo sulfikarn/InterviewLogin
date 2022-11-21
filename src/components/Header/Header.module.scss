@@ -1,0 +1,17 @@
+.nav{
+    background: #15171c;
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width:100%;
+
+    .navIcon{
+        margin-left: 2rem;
+        font-size: 2rem;
+        height: 80px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+}

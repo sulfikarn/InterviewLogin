@@ -1,0 +1,17 @@
+.main{
+    width: 100%;
+    display: flex;
+    // background: #E5E5E5;
+}
+
+.content_session{
+    min-height: 97vh;
+    flex-grow: 1;
+    padding-bottom: 10px;
+}
+
+.main_content{
+    background: #fff;
+    min-height: 97vh;
+    border-radius: 20px;
+  }

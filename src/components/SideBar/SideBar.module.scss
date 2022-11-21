@@ -1,0 +1,32 @@
+.sidebar_nav{
+    background: #15171c;
+    width: 250px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left:0;
+    //   left: ${({ sidebar }) => (sidebar ? "0" : "-100%")};
+    transition: 350ms;
+    z-index: 10;
+}
+.sidebar_nav_hide{
+    background: #15171c;
+    width: 250px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left:-100%;
+    //   left: ${({ sidebar }) => (sidebar ? "0" : "-100%")};
+    transition: 350ms;
+    z-index: 10;
+}
+
+.SidebarWrap{
+    width: 100%;
+    // color: red;
+}
+

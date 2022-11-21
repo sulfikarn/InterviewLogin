@@ -1,0 +1,48 @@
+.form {
+    width: 100%;
+    height: auto;
+    margin-top: 2rem;
+
+    .input_control {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 1.25rem;
+    }
+
+    .input_field {
+        font-family: inherit;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: inherit;
+        width: 100%;
+        height: auto;
+        padding: 0.75rem 1.25rem;
+        border: none;
+        outline: none;
+        border-radius: 2rem;
+        color: var(--color-black);
+        background: var(--color-light);
+        text-transform: unset;
+        text-rendering: optimizeLegibility;
+    }
+
+    .input_submit {
+        font-family: inherit;
+        font-size: 1rem;
+        font-weight: 500;
+        line-height: inherit;
+        cursor: pointer;
+        min-width: 40%;
+        height: auto;
+        padding: 0.65rem 1.25rem;
+        border: none;
+        outline: none;
+        border-radius: 2rem;
+        color: var(--color-white);
+        background: var(--color-blue);
+        box-shadow: var(--shadow-medium);
+        text-transform: capitalize;
+        text-rendering: optimizeLegibility;
+    }
+}

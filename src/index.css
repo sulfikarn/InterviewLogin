@@ -1,0 +1,12 @@
+:root {
+--color-light: #f1f5f9;
+--color-black: #121212;
+}
+ body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 1.5;
+  color: var(--color-black);
+  background: var(--color-light);
+ }
